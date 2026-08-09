@@ -13,13 +13,13 @@
         <header>
             <a href="index.html" class="logo">Eleazar</a>
             <nav>
-                <a href="index.html" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="services.html">Services</a>
                 <a href="skills.html">Skills</a>
                 <a href="education.html">Education</a>
                 <a href="projects.html">Projects</a>
                 <a href="experience.html">Experience</a>
-                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="active">Contact</a>
             </nav>
 
             <button class="Menu_Icon">
@@ -29,8 +29,40 @@
         </header>
 
         <main>
-           
+            <section class="content_page contact_page">
+                <div class="section_heading">
+                    <p>Start a conversation</p>
+                    <h1>Contact</h1>
+                </div>
 
+                <div class="contact_layout">
+                    <div class="contact_intro">
+                        <h2>Have a project, idea, or opportunity?</h2>
+                        <p>Send a message and I will respond as soon as possible. You can use this page for freelance work, collaboration, internship opportunities, or project feedback.</p>
+                        <div class="contact_methods">
+                            <a href="mailto:hello@example.com">hello@example.com</a>
+                            <a href="#">LinkedIn</a>
+                            <a href="#">GitHub</a>
+                        </div>
+                    </div>
+
+                    <form class="contact_form">
+                        <label>
+                            Name
+                            <input type="text" name="name" placeholder="Your name">
+                        </label>
+                        <label>
+                            Email
+                            <input type="email" name="email" placeholder="your@email.com">
+                        </label>
+                        <label>
+                            Message
+                            <textarea name="message" rows="6" placeholder="Tell me about what you want to build"></textarea>
+                        </label>
+                        <button class="primary_button" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
         </main>
 
         
