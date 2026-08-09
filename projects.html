@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Eleazar-Projects</title>
+    </head>
+
+    <body>
+
+
+        <header>
+            <a href="index.html" class="logo ">Eleazar</a>
+            <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="skills.html">Skills</a>
+            <a href="education.html">Education</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+            <button class="Menu_Icon">
+                <img src="images\Menu_Icon.png" alt="Menu_Icon">
+            </button>
+
+        </header>
+
+        <main>
+            <section class="projects_page">
+                <div class="section_heading">
+                    <p>Selected work</p>
+                    <h1>Projects</h1>
+                </div>
+
+                <div class="featured_slider" aria-label="Featured projects">
+                    <button class="slider_control slider_prev" type="button" aria-label="Previous featured project">&#10094;</button>
+                    <div class="slider_track" id="featuredSlider"></div>
+                    <button class="slider_control slider_next" type="button" aria-label="Next featured project">&#10095;</button>
+                    <div class="slider_dots" id="featuredDots" aria-label="Featured project controls"></div>
+                </div>
+
+                <div class="projects_toolbar">
+                    <div>
+                        <p>Portfolio library</p>
+                        <h2>Browse Projects</h2>
+                    </div>
+                    <span id="projectCount">0 projects</span>
+                </div>
+
+                <div class="project_grid" id="projectGrid"></div>
+
+                <div class="pagination" aria-label="Project pagination">
+                    <button id="firstPage" type="button">First</button>
+                    <button id="prevPage" type="button" aria-label="Previous page">&#9664;</button>
+                    <span id="pageIndicator">1</span>
+                    <button id="nextPage" type="button" aria-label="Next page">&#9654;</button>
+                    <button id="lastPage" type="button">Last</button>
+                </div>
+            </section>
+        </main>
+
+        <div class="project_modal" id="projectModal" aria-hidden="true">
+            <div class="modal_backdrop" data-close-modal></div>
+            <article class="modal_panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+                <button class="modal_close" type="button" aria-label="Close project details" data-close-modal>&times;</button>
+                <div class="modal_media">
+                    <img id="modalHero" src="" alt="">
+                    <div class="modal_thumbnails" id="modalThumbnails"></div>
+                </div>
+                <div class="modal_content">
+                    <p id="modalCategory"></p>
+                    <h2 id="modalTitle"></h2>
+                    <p id="modalDescription"></p>
+                    <div class="modal_meta" id="modalMeta"></div>
+                    <div class="modal_links" id="modalLinks"></div>
+                </div>
+            </article>
+        </div>
+
+            
+           
+
+
+        
+
+        
+        
+       
+        <script src="script.js"></script>
+    </body>
+</html>
