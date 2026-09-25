@@ -13,18 +13,21 @@ const projects = [
     },
 
 
-    /*
+    
     {
-        title: "AI Assisted Stock Trading Monitor",
-        category: "Analytics dashboard",
-        summary: "A trading monitor concept with watchlists, alerts, risk signals, and market snapshots.",
-        description: "An analytics dashboard concept for tracking market movement, watchlists, alerts, and risk signals. Replace this with real screenshots, broker integrations, and deployment links when ready.",
-        tags: ["JavaScript", "Charts", "Finance"],
-        images: [placeholderImage("Stock Monitor", "#122226", "#6bc4c9"), "images/project-admin-dashboard.jpg", "images/github.png"],
+        title: "Responsive website registration form",
+        category: "website frontend",
+        summary: "A university redesigned form",
+        description: "This is a redesigned registration form for DMI University. This form has improved styling and flexible on different screen sizes such as smartphones, Desktop,and Tablet phone.",
+        tags: ["Html", "Css", "JavaScript"],
+        images: [  ],
         links: [
-            { label: "GitHub", url: "#" }
+            { label: "GitHub", url: "https://github.com/EleazarFx/Dmi-form.git" },
+            { label: "Live Demo", url: "#" }
         ]
     },
+
+    /*
     
 
     {
