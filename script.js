@@ -5,12 +5,15 @@ const projects = [
         summary: "A job discovery system with personalized recommendations, employer verification, and an admin dashboard.",
         description: "A role-based job platform concept with candidate recommendations, employer verification, and admin monitoring. The final case study can include the real stack, user roles, recommendation logic, screenshots, and measurable outcomes.",
         tags: ["Django", "AI", "Dashboard"],
-        images: ["images/project-admin-dashboard.jpg", "images/Eleazar in Black.png", "images/github.png"],
+        images: ["images/project-images/job-search.png"],
         links: [
-            { label: "GitHub", url: "#" },
-            { label: "Live Demo", url: "#", secondary: true }
+            { label: "GitHub", url: "https://github.com/EleazarFx/job_recommender_platform.git" },
+            /*{ label: "Live Demo", url: "#", secondary: true }*/
         ]
     },
+
+
+    /*
     {
         title: "AI Assisted Stock Trading Monitor",
         category: "Analytics dashboard",
@@ -22,6 +25,8 @@ const projects = [
             { label: "GitHub", url: "#" }
         ]
     },
+    
+
     {
         title: "Campus Services Booking App",
         category: "Mobile app",
@@ -134,6 +139,10 @@ const projects = [
             { label: "GitHub", url: "#" }
         ]
     }
+
+    */
+
+
 ];
 
 const menuButton = document.querySelector(".Menu_Icon");
