@@ -20,10 +20,10 @@ const projects = [
         summary: "A university redesigned form",
         description: "This is a redesigned registration form for DMI University. This form has improved styling and flexible on different screen sizes such as smartphones, Desktop,and Tablet phone.",
         tags: ["Html", "Css", "JavaScript"],
-        images: [  ],
+        images: ["images/project-images/dmi-form.png"],
         links: [
             { label: "GitHub", url: "https://github.com/EleazarFx/Dmi-form.git" },
-            { label: "Live Demo", url: "#" }
+            { label: "Live Demo", url: "https://eleazarfx.github.io/Dmi-form/" }
         ]
     },
 
