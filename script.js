@@ -172,14 +172,7 @@ if (menuButton && siteNav) {
     });
 }
 
-const contactForm = document.querySelector(".contact_form");
 
-if (contactForm) {
-    contactForm.addEventListener("submit", event => {
-        event.preventDefault();
-        alert("Thanks for reaching out. Replace this placeholder with a real form service when you are ready.");
-    });
-}
 
 const projectsPerPage = 10;
 let currentPage = 1;
