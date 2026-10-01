@@ -216,7 +216,7 @@ function renderSlider() {
     featuredSlider.innerHTML = featuredProjects.map((project, index) => `
         <article class="featured_slide">
             <div class="featured_slide_inner">
-                <img src="${project.images[0]}" alt="${project.title} preview">
+                <img src="${project.images[0]}" alt="${project.title} preview" loading="lazy">
                 <div class="featured_slide_content">
                     <span class="project_category">${project.category}</span>
                     <div class="project_tags">${project.tags.map(tag => `<span>${tag}</span>`).join("")}</div>
@@ -266,7 +266,7 @@ function renderProjects() {
         return `
             <button class="project_card" type="button" data-project-index="${projectIndex}">
                 <span class="project_image_wrap">
-                    <img src="${project.images[0]}" alt="${project.title} thumbnail">
+                    <img src="${project.images[0]}" alt="${project.title} thumbnail" loading="lazy">
                 </span>
                 <div class="project_card_content">
                     <span class="project_category">${project.category}</span>
@@ -360,7 +360,7 @@ function openProject(projectIndex) {
 
     modalThumbnails.innerHTML = project.images.map((image, index) => `
         <button class="${index === 0 ? "active" : ""}" type="button" data-image-index="${index}">
-            <img src="${image}" alt="${project.title} screenshot ${index + 1}">
+            <img src="${image}" alt="${project.title} screenshot ${index + 1}" loading="lazy">
         </button>
     `).join("");
 
