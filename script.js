@@ -27,32 +27,43 @@ const projects = [
         ]
     },
 
-    /*
+    
     
 
     {
-        title: "Campus Services Booking App",
-        category: "Mobile app",
-        summary: "A mobile-first service booking experience for students, vendors, and campus admins.",
-        description: "A mobile-first service booking flow for students, vendors, and campus administrators. This detail view can later present onboarding, booking, payment, and admin screenshots.",
-        tags: ["React Native", "Firebase", "UX"],
-        images: [placeholderImage("Booking App", "#2c1b1b", "#e19278"), "images/Eleazar in Black.png", "images/project-admin-dashboard.jpg"],
+        title: "Machine learning system for detecting SMS scams",
+        category: "Machine Learning",
+        summary: " A machine learning system for detecting SMS scams in Chichewa and Malawian English.",
+
+        description: "A machine learning system for detecting SMS scams in Chichewa and Malawian English, tuned for the local mobile money fraud landscape (Airtel Money, TNM Mpamba, fake NGO relief, miracle money cults, and transporter/parcel scams. Mobile phone scams are one of the fastest-growing forms of fraud in Malawi. Every day, thousands of Malawians receive SMS messages claiming they have: *Won a prize from (Premier Bet, Premier Lotto, or FESA), *Been selected to receive MK 75,000 from JB Foundation / Mtukula Pakhomo, *A parcel held at a border(ndine transporter, katundu wa m'bale wanu…) that requires a transport fee, *A blocked Airtel Money / TNM Mpamba account that must be unblocked by calling a number, *An invitation to a Miracle Money satanic church promising millions. Most of these messages arrive in Chichewa, English, or mixed (Chichewa & English). This project builds on a mixed dataset and trains a supervised classifier on it.",
+
+        tags: ["Python", "HTML", "CSS"],
+        images: ["images/project-images/malawi-sms-scam-detector.png"],
         links: [
-            { label: "Play Store", url: "#" },
-            { label: "GitHub", url: "#", secondary: true }
+            { label: "GitHub", url: "https://github.com/EleazarFx/malawi-sms-scam-detector.git"}
         ]
     },
+
+
     {
-        title: "Inventory Management Portal",
-        category: "Business system",
-        summary: "A clean inventory workflow for stock control, purchase tracking, and reporting.",
-        description: "A business management portal for tracking products, suppliers, stock movement, and report exports. Add real screenshots for product lists, supplier records, and low-stock alerts later.",
-        tags: ["PHP", "MySQL", "Reports"],
-        images: [placeholderImage("Inventory Portal", "#202225", "#b74b4b"), "images/project-admin-dashboard.jpg", "images/github.png"],
+        title: "Malawi Household Electricity Predictor",
+        category: "Machine Learning",
+        summary: "Unsupervised learning to discover household electricity archetypes + supervised forecasting of next-hour consumption.",
+
+        description: "Malawi has one of the lowest electrification rates in the world (~11% grid-connected). As the country races toward universal access, ESCOM needs to understand who its customers actually are — not just urban vs rural, but behavioral archetypes that matter for grid planning, tariff design, and demand forecasting. This project: *Simulates 200 realistic Malawian households using a bottom - up appliance model, *Calibrates simulated consumption to real ESCOM targets(rural 47 kWh / mo, urban 160 kWh / mo), *Discovers 4 household archetypes(evening_peak_rural, high_use_urban, spiky_low, flat_daytime) using K - Means clustering on 1.75M hourly records, *Predicts next - hour consumption  using a RandomForest - showing that cluster labels improve prediction, *Serves everything through a live web dashboard built with FastAPI. Headline result: *Adding unsupervised cluster labels to the prediction model improved MAE by 1.9 % and R² by 11.4 % relative — showing behavioral archetypes carry signal beyond raw time - series features.",
+
+
+        tags: ["Python", "HTML", "CSS"],
+        images: ["images/project-images/malawi-power-predictor.png"],
         links: [
-            { label: "Live Demo", url: "#" }
+            { label: "GitHub", url: "https://github.com/EleazarFx/malawi-power-predictor.git" }
         ]
     },
+
+
+
+
+    /*
     {
         title: "Personal Finance Tracker",
         category: "Web application",
