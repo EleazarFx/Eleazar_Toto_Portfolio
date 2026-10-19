@@ -4,7 +4,7 @@ const projects = [
         category: "Full-stack web app",
         summary: "A job discovery system with personalized recommendations, employer verification, and an admin dashboard.",
         description: "A role-based job platform concept with candidate recommendations, employer verification, and admin monitoring. The final case study can include the real stack, user roles, recommendation logic, screenshots, and measurable outcomes.",
-        tags: ["Django", "AI", "Dashboard"],
+        tags: ["Python", "Django", "HTML", "CSS", "JavaScript"],
         images: ["images/project-images/job-search.png"],
         links: [
             { label: "GitHub", url: "https://github.com/EleazarFx/job_recommender_platform.git" },
@@ -19,7 +19,7 @@ const projects = [
         category: "website frontend",
         summary: "A university redesigned form",
         description: "This is a redesigned registration form for DMI University. This form has improved styling and flexible on different screen sizes such as smartphones, Desktop,and Tablet phone.",
-        tags: ["Html", "Css", "JavaScript"],
+        tags: ["HTML", "CSS", "JavaScript"],
         images: ["images/project-images/dmi-form.png"],
         links: [
             { label: "GitHub", url: "https://github.com/EleazarFx/Dmi-form.git" },
